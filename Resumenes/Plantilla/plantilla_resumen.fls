@@ -1,7 +1,7 @@
-PWD /Users/oimg/Documents/PLA_Reportes/Plantilla
+PWD /Users/oimg/Documents/PLA_Reportes/Resumenes/Plantilla
 INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt
-INPUT /Users/oimg/Documents/PLA_Reportes/Plantilla/plantilla.tex
-OUTPUT plantilla.log
+INPUT /Users/oimg/Documents/PLA_Reportes/Resumenes/Plantilla/plantilla_resumen.tex
+OUTPUT plantilla_resumen.log
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/report.cls
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/report.cls
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size12.clo
@@ -62,10 +62,10 @@ INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ps
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
-INPUT ./plantilla.aux
-INPUT ./plantilla.aux
-INPUT plantilla.aux
-OUTPUT plantilla.aux
+INPUT ./plantilla_resumen.aux
+INPUT ./plantilla_resumen.aux
+INPUT plantilla_resumen.aux
+OUTPUT plantilla_resumen.aux
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
@@ -82,7 +82,7 @@ INPUT ./image.png
 INPUT ./image.png
 INPUT ./image.png
 INPUT ./image.png
-OUTPUT plantilla.pdf
+OUTPUT plantilla_resumen.pdf
 INPUT ./image.png
 INPUT ./image.png
 INPUT ./image.png
@@ -109,44 +109,9 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/p
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb7t.tfm
-INPUT ./plantilla.toc
-INPUT ./plantilla.toc
-INPUT plantilla.toc
-INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ot1ztmcm.fd
-INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ot1ztmcm.fd
-INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ot1ztmcm.fd
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/zptmcm7t.tfm
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/zptmcm7t.tfm
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/zptmcm7t.tfm
-INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/omlztmcm.fd
-INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/omlztmcm.fd
-INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/omlztmcm.fd
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/zptmcm7m.tfm
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/zptmcm7m.tfm
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/zptmcm7m.tfm
-INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/omsztmcm.fd
-INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/omsztmcm.fd
-INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/omsztmcm.fd
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/zptmcm7y.tfm
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/zptmcm7y.tfm
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/zptmcm7y.tfm
-INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/omxztmcm.fd
-INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/omxztmcm.fd
-INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/omxztmcm.fd
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/zptmcm7v.tfm
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/zptmcm7v.tfm
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/zptmcm7v.tfm
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb7t.tfm
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb7t.tfm
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmri7t.tfm
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmri7t.tfm
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmri7t.tfm
-OUTPUT plantilla.toc
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmrc7t.vf
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT plantilla.aux
+INPUT plantilla_resumen.aux
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.enc
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmb8a.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmb8a.pfb
