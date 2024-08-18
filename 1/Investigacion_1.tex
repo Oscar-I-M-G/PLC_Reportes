@@ -1,0 +1,59 @@
+\documentclass[12pt]{report}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{times}
+
+% Configuración de márgenes
+\geometry{
+    top=3cm,
+    left=3cm,
+    right=2cm,
+    bottom=2cm
+}
+
+% Configuración de interlineado
+\onehalfspacing
+
+% Configuración de títulos y subtítulos
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries\centering}{}{0pt}{\LARGE}
+\titleformat{\section}
+  {\normalfont\bfseries}{\thesection}{1em}{\Large}
+\titleformat{\subsection}
+  {\normalfont\bfseries}{\thesubsection}{1em}{\large}
+
+  \begin{document}
+
+% \begin{titlepage}
+%----- PORTADA ----
+\setlength{\hoffset}{27 pt} % 1 (Para centrar más la portada)
+\begin{titlepage}
+{\centering
+{\bfseries\LARGE Universidad de Guadalajara \par}
+\vspace{0.5cm}
+{\scshape\Large Centro Universitario de los Lagos \par}
+\vspace{1cm}
+{\graphicspath{{imagenes/Portada}} %ruta de las imagenes
+\includegraphics[width=0.3\textwidth]{image.png}\par}
+\vspace{1cm}
+{\scshape\large\bfseries Estudio teórico de parámetros fotovoltaicos de los aceptores orgánicos BTP-4F-T2C8, BTP-4F-T2EH y BTP-4F-T3EH \par}
+\vspace{1.5cm}
+{\normalsize TESIS PARA OBTENER EL GRADO DE: \\ Maestro en Ciencia y Tecnología}
+\vfill
+{\large \textbf{Presenta:} \\Néstor Juan Pablo Chico Beltrán \par}
+\vfill
+{\large \textbf{Director de Tesis:} \\Dr. Jaime Gustavo Rodríguez Zavala \par}
+\vfill
+{\large \textbf{Co-Director de Tesis:} \\Mtro. Alessandro Romo Gutierrez \par}
+\vfill
+\vfill
+{\normalsize \textbf Date
+\vfill}}
+{\large  \par}
+\end{titlepage}
+
+
+\end{document}
