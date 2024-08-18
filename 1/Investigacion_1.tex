@@ -1,4 +1,5 @@
 \documentclass[12pt]{report}
+
 \usepackage{graphicx}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
@@ -6,10 +7,9 @@
 \usepackage{geometry}
 \usepackage{titlesec}
 \usepackage{times}
-\usepackage{mathptmx} % Use mathptmx instead of times
-\usepackage[backend=biber,style=apa]{biblatex} % Add biblatex package
-\addbibresource{references.bib} % Name of your .bib file
-%%\DeclareLanguageMapping{spanish}{spanish-apa} % Set the language mapping for APA style
+\usepackage{mathptmx} 
+\usepackage{fancyhdr}
+
 
 
 
@@ -26,13 +26,23 @@
 
 % Configuración de títulos y subtítulos
 \titleformat{\chapter}[display]
-  {\normalfont\bfseries\centering}{}{0pt}{\LARGE}
+  {\normalfont\bfseries\centering}{}{0pt}{\fontsize{14}{16}\selectfont}
 \titleformat{\section}
-  {\normalfont\bfseries}{\thesection}{1em}{\Large}
+  {\normalfont\bfseries}{\thesection}{1em}{\fontsize{12}{14}\selectfont}
 \titleformat{\subsection}
-  {\normalfont\bfseries}{\thesubsection}{1em}{\large}
+  {\normalfont\bfseries}{\thesubsection}{1em}{\fontsize{12}{14}\selectfont}
 
+
+\fancyhf{}
+\fancyfoot[R]{\thepage}
+\pagestyle{fancy}
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyfoot[R]{\thepage}
+}
   \begin{document}
+
+  \pagenumbering{roman}
 %----- PORTADA ----
 \setlength{\hoffset}{27 pt} % 1 (Para centrar más la portada)
 \begin{titlepage}
@@ -69,15 +79,21 @@
 %----- FIN DE PORTADA ----
 
 %----- ÍNDICE GENERAL ----
+
 \tableofcontents
 \newpage
 
 %----- PALABRAS CLAVE ----
+\pagenumbering{arabic}
 \chapter*{Palabras Clave}
 \addcontentsline{toc}{chapter}{Palabras Clave}
 PLC: Controlador Lógico Programable.\\
 Industria: Conjunto de procesos y actividades que tienen como finalidad transformar materias primas en productos elaborados.\\
 Control: Regulación de un sistema para mantenerlo en un estado deseado.\\
+Automatización: Proceso de controlar un sistema o proceso sin intervención humana.\\
+Programación: Acción de escribir un programa informático.\\
+Sensores: Dispositivo que detecta un cambio en el entorno y responde a él.\\
+
 \newpage
 
 
@@ -85,7 +101,7 @@ Control: Regulación de un sistema para mantenerlo en un estado deseado.\\
 \chapter*{Objetivo}
 \addcontentsline{toc}{chapter}{Objetivo}
 El objetivo de esta investigación es conocer los campos de aplicación de los PLCs, así como la importancia en la industria. También se pretende conocer las ventajas y desventajas de los PLCs.
-
+\newpage
 %----- CONTENIDO ----
 \chapter{Contenido}
 \section{Aplicación de PLCs}
@@ -98,22 +114,48 @@ La idea general de la utilización de los PLCs es para automatizar procesos de m
 \item Metalurgia: Control de hornos, forjas, grúas, laminado.
 \item Industria Alimentaria: Empaquetado, almacenaje.
 \item Maderas y papeleras: Serradoras, control de procesos, producción de conglomerados.
-\item Producción de energía: Energía solar, turbinas eólicas, centrales eléctricas. \cite{Autycom2019}
+\item Producción de energía: Energía solar, turbinas eólicas, centrales eléctricas. \cite{Autycom2018}
 \end{itemize}
-\subsection{Porque usar PLCs}
+\subsection{Por qué usar PLCs}
 En las condiciones típicas de una fábrica se trabaja con altas temperaturas y mucho polvo, y los movimientos de las máquinas también causan vibraciones. Los PLCs están diseñados para trabajar en este tipo de condiciones. Además, se busca utilizar el menor costo posible y estos también cumplen, ya que son fáciles de mantener y difíciles de dañar.
 
+Otra de las razones por su exito los lenguajes de programacion han tenido grandes avances, cada vez simple para los desarrolladores encargados de programar los PLCs. \cite{Autycom2019}
 \section{Ventajas y Desventajas de los PLCs}
 \subsection{Ventajas}
-\subsection{Desventajas}
+\begin{itemize}
+\item Posible automatizar tareas o robotizarlas.
+\item Muy facil de programar un PLC por el software que se viene con el producto.
+\item No es necesario cambiar toda la estructura de las instalaciones para cambiar de tarea. Esto requiere que la mecánica tenga un alto rango de dinamismo para que la programación sea la única que se cambie frente a lo material. Solo haría falta cambiar el código.
+\item Se puede programar cuando haya una falla , indicado por los errores que se detecto con los sensores de entrada.
+\end{itemize}
 
+
+  \subsection{Desventajas}
+  \begin{itemize}
+  \item Antes de automatizar una tarea en la industria, es necesario tener en cuenta todos los detalles de lo que se debe hacer para que nada salga mal.
+  \item La tarea o el proceso depende totalmente y enteramente del código de la programación. Esta no puede estar mal. Por ello, el programador debe ser muy bueno.
+  \item El costo inicial de lo que implica automatizar una tarea con un PLC es muy elevado. \cite{VentajasDesventajasPLC}
+  \end{itemize}
+\newpage
 
 
 %----- CONCLUSIONES ----
 \chapter{Conclusiones}
-Aquí van las conclusiones de tu documento.
-\newpage
+En conclusión, los Controladores Lógicos Programables (PLCs) son ampliamente utilizados en la industria para automatizar procesos de maniobra, control y señalización. Su aplicación abarca diversos campos, como la maquinaria industrial, instalaciones de seguridad, industria automotriz, industria química y petroquímica, metalurgia, industria alimentaria, entre otros.
 
+El uso de PLCs ofrece varias ventajas, como la posibilidad de automatizar tareas o robotizarlas, la facilidad de programación a través del software proporcionado, la flexibilidad para cambiar de tarea sin modificar la estructura de las instalaciones y la capacidad de detectar y corregir fallas mediante sensores de entrada.
+
+Sin embargo, también existen desventajas a considerar, como la necesidad de planificar y programar cuidadosamente las tareas a automatizar, la dependencia total del código de programación y el costo inicial elevado.
+\newpage
 %----- REFERENCIAS ----
-\printbibliography
+\begin{thebibliography}{2}
+      \bibitem{Autycom2018}
+      Autycom. (2018, abril 17). La importancia del PLC en la Industria. AUTYCOM - AUTYCOM. https://www.autycom.com/importancia-del-plc-en-la-industria/
+
+      \bibitem{Autycom2019}
+      Autycom. (2019, marzo 12). Aplicaciones del PLC en la industria moderna. AUTYCOM - AUTYCOM. https://www.autycom.com/aplicaciones-del-plc-en-la-industria-moderna/
+
+      \bibitem{VentajasDesventajasPLC}
+      Ventajas y desventajas de un PLC. (s/f). Blogspot.com. Recuperado el 18 de agosto de 2024, de http://gigatecno.blogspot.com/2013/02/ventajas-y-desventajas-de-un-plc.html
+\end{thebibliography}
 \end{document}
