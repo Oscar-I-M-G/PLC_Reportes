@@ -1,0 +1,10 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{Palabras Clave}{2}{}%
+\contentsline {chapter}{Objetivo}{3}{}%
+\contentsline {chapter}{\numberline {1}Contenido}{4}{}%
+\contentsline {section}{\numberline {1.1}Aplicación de PLCs}{4}{}%
+\contentsline {subsection}{\numberline {1.1.1}Porque usar PLCs}{4}{}%
+\contentsline {section}{\numberline {1.2}Ventajas y Desventajas de los PLCs}{5}{}%
+\contentsline {subsection}{\numberline {1.2.1}Ventajas}{5}{}%
+\contentsline {subsection}{\numberline {1.2.2}Desventajas}{5}{}%
+\contentsline {chapter}{\numberline {2}Conclusiones}{6}{}%

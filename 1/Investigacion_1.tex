@@ -1,17 +1,24 @@
 \documentclass[12pt]{report}
 \usepackage{graphicx}
 \usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
 \usepackage{setspace}
 \usepackage{geometry}
 \usepackage{titlesec}
 \usepackage{times}
+\usepackage{mathptmx} % Use mathptmx instead of times
+\usepackage[backend=biber,style=apa]{biblatex} % Add biblatex package
+\addbibresource{references.bib} % Name of your .bib file
+%%\DeclareLanguageMapping{spanish}{spanish-apa} % Set the language mapping for APA style
+
+
 
 % Configuración de márgenes
 \geometry{
-    top=3cm,
+    top=2.5cm,
     left=3cm,
-    right=2cm,
-    bottom=2cm
+    right=3cm,
+    bottom=2.5cm
 }
 
 % Configuración de interlineado
@@ -26,34 +33,87 @@
   {\normalfont\bfseries}{\thesubsection}{1em}{\large}
 
   \begin{document}
-
-% \begin{titlepage}
 %----- PORTADA ----
 \setlength{\hoffset}{27 pt} % 1 (Para centrar más la portada)
 \begin{titlepage}
 {\centering
-{\bfseries\LARGE Universidad de Guadalajara \par}
+{\fontfamily{ptm}\scshape\bfseries\fontsize{29.16}{34.992}\selectfont Universidad de Guadalajara \par}
 \vspace{0.5cm}
 {\scshape\Large Centro Universitario de los Lagos \par}
+\vspace{1cm}
+{\scshape\Large División de Estudios de la Biodiversidad e innovación Tecnológica \par}
 \vspace{1cm}
 {\graphicspath{{imagenes/Portada}} %ruta de las imagenes
 \includegraphics[width=0.3\textwidth]{image.png}\par}
 \vspace{1cm}
-{\scshape\large\bfseries Estudio teórico de parámetros fotovoltaicos de los aceptores orgánicos BTP-4F-T2C8, BTP-4F-T2EH y BTP-4F-T3EH \par}
+% Título
+{\scshape\large\bfseries Investigación 1. Campos de Aplicación del PLC \par}
 \vspace{1.5cm}
-{\normalsize TESIS PARA OBTENER EL GRADO DE: \\ Maestro en Ciencia y Tecnología}
+% Materia
+{\large \textbf{Materia:} \\Controladores Lógicos Programables\par}
 \vfill
-{\large \textbf{Presenta:} \\Néstor Juan Pablo Chico Beltrán \par}
+% Estudiante
+{\large \textbf{Presenta:} \\Oscar Iván Moreno Gutiérrez \#220942754\par}
 \vfill
-{\large \textbf{Director de Tesis:} \\Dr. Jaime Gustavo Rodríguez Zavala \par}
+% Profesor
+{\large \textbf{Profesor:} \\Dr. Afanador Delgado Samuel Mardoqueo \par}
 \vfill
-{\large \textbf{Co-Director de Tesis:} \\Mtro. Alessandro Romo Gutierrez \par}
 \vfill
-\vfill
-{\normalsize \textbf Date
-\vfill}}
+% Fecha
+\begin{flushright}
+  {\normalsize \textbf {Fecha:} \\ \today}
+\end{flushright}
+\vfill}
 {\large  \par}
 \end{titlepage}
+%----- FIN DE PORTADA ----
+
+%----- ÍNDICE GENERAL ----
+\tableofcontents
+\newpage
+
+%----- PALABRAS CLAVE ----
+\chapter*{Palabras Clave}
+\addcontentsline{toc}{chapter}{Palabras Clave}
+PLC: Controlador Lógico Programable.\\
+Industria: Conjunto de procesos y actividades que tienen como finalidad transformar materias primas en productos elaborados.\\
+Control: Regulación de un sistema para mantenerlo en un estado deseado.\\
+\newpage
 
 
+%----- OBJETIVO ----
+\chapter*{Objetivo}
+\addcontentsline{toc}{chapter}{Objetivo}
+El objetivo de esta investigación es conocer los campos de aplicación de los PLCs, así como la importancia en la industria. También se pretende conocer las ventajas y desventajas de los PLCs.
+
+%----- CONTENIDO ----
+\chapter{Contenido}
+\section{Aplicación de PLCs}
+La idea general de la utilización de los PLCs es para automatizar procesos de maniobra, control y señalización. Generalmente en la Industria por ejemplo
+\begin{itemize}
+\item Maquinaria: Máquinas industriales para madera o plásticos, proceso de gravas.
+\item Instalaciones: Plantas de embotellado, instalaciones de seguridad, calefacción, tratamientos de agua.
+\item Industria Automotriz: Soldaduras, ensamblaje, cabinas de pintura, taladradoras.
+\item Industria química y petroquímica: Pesaje, baños eléctricos, dosificación, oleoductos.
+\item Metalurgia: Control de hornos, forjas, grúas, laminado.
+\item Industria Alimentaria: Empaquetado, almacenaje.
+\item Maderas y papeleras: Serradoras, control de procesos, producción de conglomerados.
+\item Producción de energía: Energía solar, turbinas eólicas, centrales eléctricas. \cite{Autycom2019}
+\end{itemize}
+\subsection{Porque usar PLCs}
+En las condiciones típicas de una fábrica se trabaja con altas temperaturas y mucho polvo, y los movimientos de las máquinas también causan vibraciones. Los PLCs están diseñados para trabajar en este tipo de condiciones. Además, se busca utilizar el menor costo posible y estos también cumplen, ya que son fáciles de mantener y difíciles de dañar.
+
+\section{Ventajas y Desventajas de los PLCs}
+\subsection{Ventajas}
+\subsection{Desventajas}
+
+
+
+%----- CONCLUSIONES ----
+\chapter{Conclusiones}
+Aquí van las conclusiones de tu documento.
+\newpage
+
+%----- REFERENCIAS ----
+\printbibliography
 \end{document}
