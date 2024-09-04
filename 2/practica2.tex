@@ -56,7 +56,7 @@
 \includegraphics[width=0.3\textwidth]{image.png}\par}
 \vspace{1cm}
 % Título
-{\scshape\large\bfseries Resumen X\par}
+{\scshape\large\bfseries Investigación X. xxxx \par}
 \vspace{1.5cm}
 % Materia
 {\large \textbf{Materia:} \\Controladores Lógicos Programables\par}
@@ -76,18 +76,45 @@
 {\large  \par}
 \end{titlepage}
 %----- FIN DE PORTADA ----
-\pagenumbering{arabic}
 
-%----- CONTENIDO ----
-\chapter{Resumen}
-
+%----- ÍNDICE GENERAL ----
+\tableofcontents
 \newpage
 
 %----- PALABRAS CLAVE ----
-
+\pagenumbering{arabic}
 \chapter*{Palabras Clave}
-
+\addcontentsline{toc}{chapter}{Palabras Clave}
 Aquí van las palabras clave de tu documento.
 \newpage
+
+%----- OBJETIVO ----
+\chapter*{Objetivo}
+\addcontentsline{toc}{chapter}{Objetivo}
+Aquí va el objetivo de tu documento.
+\newpage
+
+%----- CONTENIDO ----
+\chapter{Contenido}
+\section{Sección 1}
+Contenido de la sección 1. \cite{1}
+
+\subsection{Subsección 1.1}
+Contenido de la subsección 1.1.
+
+\section{Sección 2}
+Contenido de la sección 2.
+\newpage
+
+%----- CONCLUSIONES ----
+\chapter{Conclusiones}
+Aquí van las conclusiones de tu documento.
+\newpage
+
+%----- REFERENCIAS ----
+\addcontentsline{toc}{chapter}{Bibliografía}
+\begin{thebibliography}{1}
+\bibitem{1} Autor, A. (2021). Título del libro. Editorial.
+\end{thebibliography}
 
 \end{document}

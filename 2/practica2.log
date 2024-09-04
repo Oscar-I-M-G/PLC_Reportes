@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.4.19)  4 SEP 2024 16:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.4.19)  4 SEP 2024 16:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -303,11 +303,62 @@ Package pdftex.def Info: image.png  used on input line 56.
 [1
 
 {/Users/oimg/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pd
-ftex.map} <./image.png>]
-Cap\'{\i }tulo 1.
-[1
+ftex.map} <./image.png>] (practica2.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
+ 5.
+
+(/Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss
+/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
+ 5.
+
+(/Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss
+/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
+ 5.
+
+(/Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss
+/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
+ 5.
+
+(/Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss
+/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
+)
+\tf@toc=\write3
+\openout3 = `practica2.toc'.
+
+ [1
+
+] [1
 
 ] [2
+
+]
+Cap\'{\i }tulo 1.
+[3
+
+]
+Cap\'{\i }tulo 2.
+[4
+
+] [5
 
 ] (practica2.aux
 LaTeX Info: Redefining \. on input line 8.
@@ -319,20 +370,20 @@ L3 programming layer <2024-03-14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3994 strings out of 476358
- 66465 string characters out of 5792223
- 1928493 words of memory out of 5000000
- 26073 multiletter control sequences out of 15000+600000
- 575807 words of font info for 58 fonts, out of 8000000 for 9000
+ 4075 strings out of 476358
+ 68284 string characters out of 5792223
+ 1929493 words of memory out of 5000000
+ 26133 multiletter control sequences out of 15000+600000
+ 584496 words of font info for 76 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 57i,11n,65p,250b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,11n,65p,250b,386s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.e
 nc}</Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/ut
 mb8a.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/ti
 mes/utmr8a.pfb>
-Output written on practica2.pdf (3 pages, 51010 bytes).
+Output written on practica2.pdf (7 pages, 57830 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
+ 40 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
