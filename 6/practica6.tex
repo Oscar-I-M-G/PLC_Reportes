@@ -88,10 +88,15 @@
 %----- PALABRAS CLAVE ----
 \pagenumbering{arabic}
 \chapter*{Palabras Clave}
-
+\begin{description}
+  \item[Controladores Lógicos Programables (PLC):] Dispositivos utilizados para la automatización de procesos industriales mediante la programación de secuencias lógicas.
+  \item[Temporizadores TON y TOF:] Funciones de temporización en PLCs que permiten controlar el tiempo de activación (TON) y desactivación (TOF) de una salida.
+  \item[Simulación de circuitos de control:] Proceso de modelado y prueba de circuitos de control en un entorno virtual antes de su implementación física.
+  \item[Retardo de activación y desactivación:] Tiempo específico que se introduce en un circuito para retrasar la activación o desactivación de una salida.
+  \item[Programación de PLCs:] Proceso de escribir y cargar programas en un PLC para automatizar tareas específicas.
+\end{description}
 \addcontentsline{toc}{chapter}{Palabras Clave}
-\begin{itemize}
-\end{itemize}
+
 
 %\begin{itemize}
 
@@ -135,20 +140,20 @@ Para la realización de esta práctica se utilizaron los siguientes materiales:
           \label{fig:variables}
         \end{figure}
   \item Creamos el circuito
-        \begin{figure}[H]
-          \centering
-          \includegraphics[width=1\textwidth]{screenshots/PredominanteSET.png}
-          \caption{Circuito dominante SET}
-          \label{fig:set}
-        \end{figure}
+
 \end{enumerate}
+\newpage
+\begin{figure}[H]
+  \centering
+  \includepdf[width=0.8\textwidth,page=1]{screenshots/p6.pdf} % Replace with the actual path to your PDF file
+  \caption{circuito}
+  \label{fig:pdfimage}
+\end{figure}
 \newpage
 
 %----- CONCLUSIONES ----
 \chapter{Conclusiones}
-En esta práctica, se implementaron y simularon circuitos de control utilizando las funciones LATCH/UNLATCH, también conocidas como SET/RESET. A través de la creación de variables y la configuración adecuada de los componentes del circuito, se pudo verificar el funcionamiento de los circuitos predominantes SET y RESET.
-
-El circuito predominante SET demostró ser efectivo para mantener una salida activada hasta que se cumpla una condición específica para desactivarla. Por otro lado, el circuito predominante RESET permitió desactivar una salida previamente activada por el circuito SET, asegurando que las operaciones se realicen de manera controlada y segura.
+En esta práctica, aprendimos a utilizar los temporizadores TON y TOF en la programación de Controladores Lógicos Programables (PLC) para controlar el tiempo de activación y desactivación de una salida. A través de la implementación de temporizadores, pudimos simular y verificar el funcionamiento de circuitos de control que requieren un retardo específico para activar o desactivar una salida. Además, aprendimos a declarar variables y crear circuitos en el software de programación de PLCs, lo que nos permitió comprender mejor el proceso de programación y control de dispositivos electrónicos.
 \newpage
 
 
