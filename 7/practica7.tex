@@ -88,7 +88,14 @@
 %----- PALABRAS CLAVE ----
 \pagenumbering{arabic}
 \chapter*{Palabras Clave}
- 
+  \begin{itemize}
+    \item Semáforo: Dispositivo de señales luminosas para controlar el tráfico.
+    \item Cruce de calles: Intersección donde se cruzan dos o más calles.
+    \item Simulación: Imitación del funcionamiento de un sistema real.
+    \item Controladores Lógicos Programables: Dispositivos electrónicos usados para automatizar procesos.
+    \item Temporizadores: Dispositivos que miden y controlan intervalos de tiempo.
+    \item Bobinas: Componentes electromagnéticos usados en circuitos.
+  \end{itemize}
 \addcontentsline{toc}{chapter}{Palabras Clave}
 
 
@@ -141,20 +148,35 @@
   \end{itemize}
   Se pienza utilizar 13 temporizadores, ya que 12 de ellos se diviran en pareja para poder mandar un pulso al terminar el tiempo de una luz, pasando a la siguiente luz, y al mismo tiempo manteniendo la luz correspondiente encendida.
   El otro temporizador se utilizara para crear un pulso para encender los semaforos.
-\section{Maquina de Estados}
+\section{Diagrama de Estados}
 
 
 \section{Procedimiento}
 \begin{enumerate}
   \item Declaramos las variables de nuestro circuito.
+    \begin{figure}[H]
+      \centering
+      \includegraphics[width=0.5\textwidth]{screenshots/Variables.png}
+      \caption{Variables del circuito}
+      \label{fig:variables}
+    \end{figure}
   \item Creamos el circuito
+
 
 \end{enumerate}
 
 \newpage
+\begin{figure}[H]
+  \centering
+  \includepdf[width=0.8\textwidth,page=1]{screenshots/P7.pdf} % Replace with the actual path to your PDF file
+  \caption{circuito}
+  \label{fig:pdfimage}
+\end{figure}
+\newpage
 
 %----- CONCLUSIONES ----
 \chapter{Conclusiones}
+  Utilizando los temporizadores TOF y TON y unas cuantas bobinas pudimos crear este circuito.
 \newpage
 
 
