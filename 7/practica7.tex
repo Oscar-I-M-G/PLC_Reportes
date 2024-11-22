@@ -149,8 +149,14 @@
   Se pienza utilizar 13 temporizadores, ya que 12 de ellos se diviran en pareja para poder mandar un pulso al terminar el tiempo de una luz, pasando a la siguiente luz, y al mismo tiempo manteniendo la luz correspondiente encendida.
   El otro temporizador se utilizara para crear un pulso para encender los semaforos.
 \section{Diagrama de Estados}
-
-
+  Se tiene el siguiente diagrama de estados:
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{screenshots/diagrama.jpg}
+    \caption{Diagrama de estados}
+    \label{fig:estados}
+  \end{figure}
+  Se puede observar que se tiene 6 estados, El semaforo 1 en verde, amarillo y rojo y el semaforo 2 en verde, amarillo y rojo. con su respecto inicio y paro.
 \section{Procedimiento}
 \begin{enumerate}
   \item Declaramos las variables de nuestro circuito.
@@ -166,12 +172,7 @@
 \end{enumerate}
 
 \newpage
-\begin{figure}[H]
-  \centering
-  \includepdf[width=0.8\textwidth,page=1]{screenshots/P7.pdf} % Replace with the actual path to your PDF file
-  \caption{circuito}
-  \label{fig:pdfimage}
-\end{figure}
+\includepdf[pages=- , offset=-40 0]{screenshots/P7.pdf}
 \newpage
 
 %----- CONCLUSIONES ----

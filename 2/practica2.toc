@@ -2,7 +2,7 @@
 \contentsline {chapter}{Palabras Clave}{1}{}%
 \contentsline {chapter}{Objetivo}{2}{}%
 \contentsline {chapter}{\numberline {1}Contenido}{3}{}%
-\contentsline {section}{\numberline {1.1}Que es un circuito de autoenergizaci^^c3^^b3n?}{3}{}%
+\contentsline {section}{\numberline {1.1}Que es un circuito de autoenergización?}{3}{}%
 \contentsline {subsection}{\numberline {1.1.1}Dominante ON}{3}{}%
 \contentsline {subsection}{\numberline {1.1.2}Dominate OFF}{3}{}%
 \contentsline {section}{\numberline {1.2}Materiales}{4}{}%

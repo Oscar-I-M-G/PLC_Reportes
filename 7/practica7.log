@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.31)  20 NOV 2024 17:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.31)  22 NOV 2024 09:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -359,35 +359,35 @@ Package pdftex.def Info: screenshots/problema.png  used on input line 119.
 [3
 
  <./screenshots/problema.png>]
-<screenshots/Variables.png, id=25, 520.19344pt x 279.29344pt>
+<screenshots/diagrama.jpg, id=25, 648.4225pt x 498.86375pt>
+File: screenshots/diagrama.jpg Graphic file (type jpg)
+<use screenshots/diagrama.jpg>
+Package pdftex.def Info: screenshots/diagrama.jpg  used on input line 155.
+(pdftex.def)             Requested size: 221.78923pt x 170.63144pt.
+
+
+[4]
+<screenshots/Variables.png, id=29, 520.19344pt x 279.29344pt>
 File: screenshots/Variables.png Graphic file (type png)
 <use screenshots/Variables.png>
-Package pdftex.def Info: screenshots/Variables.png  used on input line 159.
+Package pdftex.def Info: screenshots/Variables.png  used on input line 165.
 (pdftex.def)             Requested size: 221.78923pt x 119.07956pt.
 
 
-[4 <./screenshots/Variables.png>]
-
-[5]
-
-Package pdfpages Warning: Option `page' is unknow to \includepdf.
-(pdfpages)                Did you mean `pages'? (Note the `s'!)
-(pdfpages)                OK, I'll proceed as if it were `pages'.
-
-
+[5 <./screenshots/diagrama.jpg> <./screenshots/Variables.png>]
 
 pdfTeX warning: pdflatex.exe (file ./screenshots/P7.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<screenshots/P7.pdf, id=34, 845.07724pt x 1194.98447pt>
+<screenshots/P7.pdf, id=35, 845.07724pt x 1194.98447pt>
 File: screenshots/P7.pdf Graphic file (type pdf)
 <use screenshots/P7.pdf>
-Package pdftex.def Info: screenshots/P7.pdf  used on input line 171.
+Package pdftex.def Info: screenshots/P7.pdf  used on input line 175.
 (pdftex.def)             Requested size: 845.07518pt x 1194.98155pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./screenshots/P7.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: screenshots/P7.pdf Graphic file (type pdf)
 <use screenshots/P7.pdf>
-Package pdftex.def Info: screenshots/P7.pdf  used on input line 171.
+Package pdftex.def Info: screenshots/P7.pdf  used on input line 175.
 (pdftex.def)             Requested size: 845.07518pt x 1194.98155pt.
 
 
@@ -395,36 +395,56 @@ pdfTeX warning: pdflatex.exe (file ./screenshots/P7.pdf): PDF inclusion: found P
 
 
 pdfTeX warning: pdflatex.exe (file ./screenshots/P7.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<screenshots/P7.pdf, id=37, page=1, 845.07724pt x 1194.98447pt>
+<screenshots/P7.pdf, id=38, page=1, 845.07724pt x 1194.98447pt>
 File: screenshots/P7.pdf Graphic file (type pdf)
 <use screenshots/P7.pdf, page 1>
-Package pdftex.def Info: screenshots/P7.pdf , page1 used on input line 171.
-(pdftex.def)             Requested size: 354.86412pt x 501.79889pt.
+Package pdftex.def Info: screenshots/P7.pdf , page1 used on input line 175.
+(pdftex.def)             Requested size: 845.07518pt x 1194.98155pt.
 File: screenshots/P7.pdf Graphic file (type pdf)
 <use screenshots/P7.pdf, page 1>
-Package pdftex.def Info: screenshots/P7.pdf , page1 used on input line 171.
-(pdftex.def)             Requested size: 1340.93272pt x 1896.15068pt.
+Package pdftex.def Info: screenshots/P7.pdf , page1 used on input line 175.
+(pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
 File: screenshots/P7.pdf Graphic file (type pdf)
 <use screenshots/P7.pdf, page 1>
-Package pdftex.def Info: screenshots/P7.pdf , page1 used on input line 171.
-(pdftex.def)             Requested size: 1340.93272pt x 1896.15068pt.
+Package pdftex.def Info: screenshots/P7.pdf , page1 used on input line 175.
+(pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
 File: screenshots/P7.pdf Graphic file (type pdf)
 <use screenshots/P7.pdf, page 1>
-Package pdftex.def Info: screenshots/P7.pdf , page1 used on input line 171.
-(pdftex.def)             Requested size: 1340.93272pt x 1896.15068pt.
+Package pdftex.def Info: screenshots/P7.pdf , page1 used on input line 175.
+(pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
 
 
 File: screenshots/P7.pdf Graphic file (type pdf)
 <use screenshots/P7.pdf, page 1>
 Package pdftex.def Info: screenshots/P7.pdf , page1 used on input line 175.
-(pdftex.def)             Requested size: 1340.93272pt x 1896.15068pt.
+(pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
 [6
+
+ <./screenshots/P7.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./screenshots/P7.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<screenshots/P7.pdf, id=61, page=2, 845.07724pt x 1194.98447pt>
+File: screenshots/P7.pdf Graphic file (type pdf)
+<use screenshots/P7.pdf, page 2>
+Package pdftex.def Info: screenshots/P7.pdf , page2 used on input line 175.
+(pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
+File: screenshots/P7.pdf Graphic file (type pdf)
+<use screenshots/P7.pdf, page 2>
+Package pdftex.def Info: screenshots/P7.pdf , page2 used on input line 175.
+(pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
+
+
+File: screenshots/P7.pdf Graphic file (type pdf)
+<use screenshots/P7.pdf, page 2>
+Package pdftex.def Info: screenshots/P7.pdf , page2 used on input line 175.
+(pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
+[7
 
  <./screenshots/P7.pdf>]
 Cap\'{\i }tulo 2.
 
 
-[7
+[8
 
 ] (./practica7.aux
 LaTeX Info: Redefining \. on input line 8.
@@ -436,18 +456,18 @@ L3 programming layer <2024-10-09>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5540 strings out of 473577
- 89765 string characters out of 5732224
- 508003 words of memory out of 5000000
- 28356 multiletter control sequences out of 15000+600000
+ 5550 strings out of 473577
+ 90086 string characters out of 5732224
+ 507011 words of memory out of 5000000
+ 28366 multiletter control sequences out of 15000+600000
  584496 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,17n,79p,326b,387s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 68i,17n,79p,326b,434s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on practica7.pdf (9 pages, 205669 bytes).
+Output written on practica7.pdf (10 pages, 243700 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 80 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

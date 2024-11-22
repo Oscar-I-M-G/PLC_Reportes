@@ -88,7 +88,15 @@
 %----- PALABRAS CLAVE ----
 \pagenumbering{arabic}
 \chapter*{Palabras Clave}
- 
+\begin{itemize}
+  \item \textbf{Contador:} Dispositivo que cuenta el número de eventos o elementos.
+  \item \textbf{Banda transportadora:} Sistema mecánico que transporta materiales de un lugar a otro.
+  \item \textbf{Sensor:} Dispositivo que detecta cambios en el entorno y envía la información a otros dispositivos.
+  \item \textbf{Temporizador:} Dispositivo que mide y controla el tiempo de operación de un sistema.
+  \item \textbf{Botón de arranque:} Interruptor que inicia el funcionamiento de un sistema.
+  \item \textbf{Botón de paro:} Interruptor que detiene el funcionamiento de un sistema.
+  \item \textbf{Paro de emergencia:} Mecanismo que detiene el sistema inmediatamente en caso de emergencia.
+\end{itemize}
 \addcontentsline{toc}{chapter}{Palabras Clave}
 
 
@@ -116,22 +124,36 @@
     \caption{Imagen del problema}
     \label{fig:imagenProblema}
   \end{figure}
-  \section{Como resolver el problema}
-  Utilizando un contador en el PLC, cada 
-  \section{Maquina de Estados}
+  \section{Diagrama de Estados}
+  Se tiene el siguiente diagrama de estados:
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{screenshots/diagrama.jpg}
+    \caption{Diagrama de estados}
+    \label{fig:estados}
+  \end{figure}
 
 
 \section{Procedimiento}
 \begin{enumerate}
   \item Declaramos las variables de nuestro circuito.
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{screenshots/variables.jpg}
+    \caption{Variables del circuito}
+    \label{fig:variables}
+  \end{figure}
   \item Creamos el circuito
-
+  
 \end{enumerate}
 
+\newpage
+\includepdf[pages=- , offset=-40 0]{screenshots/PDF_8.pdf}
 \newpage
 
 %----- CONCLUSIONES ----
 \chapter{Conclusiones}
+Utilizando contadores y temporizadores TOF y TON se puede realizar un circuito que simule lo que pide el problmema anterios
 \newpage
 
 
